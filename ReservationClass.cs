@@ -183,12 +183,12 @@ class Program
         List<Reservation> reservations = new List<Reservation>();
         //Reservation.createReservation(reservations);
         
-        foreach (Reservation reservation in reservations)
+        //foreach (Reservation reservation in reservations)
         {
-            Console.WriteLine($"ID: {reservation.id}, Клиент: {reservation.clientName}, " +
-                              $"Столик: {reservation.tableId}, " +
-                              $"Время: {reservation.reservationStart:dd.MM.yy HH:mm} - {reservation.reservationEnd:HH:mm} " +
-                              $"Комментарий: {reservation.comment}");
+            //Console.WriteLine($"ID: {reservation.id}, Клиент: {reservation.clientName}, " +
+                              //$"Столик: {reservation.tableId}, " +
+                              //$"Время: {reservation.reservationStart:dd.MM.yy HH:mm} - {reservation.reservationEnd:HH:mm} " +
+                              //$"Комментарий: {reservation.comment}");
         }
     }
 }
